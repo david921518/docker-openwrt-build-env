@@ -5,7 +5,7 @@ Build [OpenWrt](https://openwrt.org/) images in a Docker container. This is some
 Build tested:
 
 - Openwrt-24.10.0
-- Openwrt-23.05.4
+- Openwrt-23.05.6
 - OpenWrt-22.03.5
 - OpenWrt-21.02.2
 - OpenWrt-19.07.8
@@ -20,8 +20,8 @@ A smaller container based on Alpine Linux is available in the alpine branch. But
 * build Docker image:
 
 ```shell
-git clone https://github.com/mwarning/docker-openwrt-builder.git
-cd docker-openwrt-builder
+git clone https://github.com/david921518/docker-openwrt-build-env.git
+cd docker-openwrt-build-env
 docker build -t openwrt_builder .
 ```
 
