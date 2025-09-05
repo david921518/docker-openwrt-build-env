@@ -11,6 +11,7 @@ RUN apt-get update && \
         flex gettext wget unzip xz-utils python3 python3-distutils-extra \
         python3-distutils-extra python3-setuptools swig rsync curl \
         libsnmp-dev liblzma-dev libpam0g-dev cpio rsync gcc-multilib qemu-utils \
+        libelf-dev \
         python2.7 && \
     apt-get clean && \
     useradd -m user && \
