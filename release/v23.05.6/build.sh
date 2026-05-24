@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt update && sudo apt install libelf1
+
 git clone -b v23.05.6 https://git.openwrt.org/openwrt/openwrt.git openwrt-v23.05.5
 cd openwrt-v23.05.6
 
