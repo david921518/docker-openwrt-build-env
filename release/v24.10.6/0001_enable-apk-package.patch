@@ -1,0 +1,13 @@
+diff --git a/package/system/apk/Makefile b/package/system/apk/Makefile
+index 7176d64ef2..5afb94b444 100644
+--- a/package/system/apk/Makefile
++++ b/package/system/apk/Makefile
+@@ -27,7 +27,7 @@ define Package/apk/default
+   SECTION:=base
+   CATEGORY:=Base system
+   TITLE:=apk package manager
+-  DEPENDS:=@BROKEN +zlib
++  DEPENDS:=+zlib
+   URL:=$(PKG_SOURCE_URL)
+   PROVIDES:=apk
+ endef
